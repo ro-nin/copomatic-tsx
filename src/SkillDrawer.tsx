@@ -43,7 +43,7 @@ function computeClothesBonus(skill: Skills_enum, equipped: Equipment,) {
         if (layer.modifiers) {
             for (const modifier of layer.modifiers) {
                 if (skill === modifier.skill)
-                    modifier.increment ? tempVal += modifier.value : tempVal -= modifier.value
+                    modifier.increment ? tempVal += modifier.value : tempVal -= modifier.value //todo useless, just add negative value, model to be changed
             }
         }
     }
@@ -68,7 +68,7 @@ interface SkillDrawerProps {
 const SkillDrawer = (props: SkillDrawerProps) => {
 
     
-    //todo Switch grid since unresponsive
+    //todo Switch to grid since unresponsive?
     
     return <div id="skills" className="  ">
 
@@ -78,7 +78,7 @@ const SkillDrawer = (props: SkillDrawerProps) => {
                     {
                         //TODO Volition Check : Failed - sorry sorry sorry this sucks - [Sorry Cop + 5]
                     }
-                    <p className='uppercase text-right bg-opacity-[90%] bg-black text-white px-5 '>{props.charName} </p>
+                    <p className='uppercase text-right bg-opacity-[90%] bg-black text-white px-5 '>{props.charName || "Harrier Kitsuragi"} </p>
                     <p className='uppercase text-right bg-opacity-[90%] bg-white text-black px-5 '>{props.copType} </p>
                     <p className='uppercase text-right bg-opacity-[90%] bg-black text-white px-5 '>with {props.soulVastness.startsWith("I") ? "an" : "a"} </p>
                     <p className='uppercase text-right bg-opacity-[90%] bg-white text-black px-5 '>{props.soulVastness}</p>

@@ -1,46 +1,14 @@
-# Getting Started with Create React App
+An unofficial online character spreadsheet generator for the RPG system as seen in the acclaimed Disco Elysium by Studio ZA/UM.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Drama - Check: PASSED
+"Do you consider yourself a HIGH CONCEPT individual? If the answer to this extremely dense question is YES, oh well you just found the HIGH CONCEPT toolkit for your everyday HIGH CONCEPT necessities. Whether you are listing your own soft, medium, hard, or VERY HARD skills in your resume for that fancy big-cash corporate job you’re aiming for, or just trying to forge a new identity after a dissociative alcohol-induced manic episode, COP-O-MATIC is that HIGH CONCEPT instrument that will serve your very special needs:
+Among the endless possibilities and philosophical implication bundling with COP-O-MATIC, you’ll be able to:
+•   Choose your own NAME? NAME... what a concept.
+•	Choose your Attributes and Skills, style and even the size of your SOUL, if you have one of course.
+•	Express yourself with a range of fashionable clothes and see how does that affect your identity.
+•	Save your new self as a digital image for everyone to see.
+Mobile responsive design you ask? What kind of LOW CONCEPT request is that?"
 
-## Available Scripts
+Interfacing - Check: PASSED
+"The code is an half mess because 1. so are we, 2. the whole thing started as an improv thing and I didn't plan to make it public, but maybe someone out there could still find some of it useful for future projects. Design is not responsive, sorry (Sorry Cop +1). Update/bug-fixes may come but probably not since who cares (Apocalypse cop +1)."
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
