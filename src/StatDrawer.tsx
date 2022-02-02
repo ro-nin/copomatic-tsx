@@ -80,8 +80,8 @@ const StatDrawer = (props: statDrawerProps) => {
                 <input type="text" name="charName" onChange={props.handleCharNameInputChange} placeholder="Character Name" className=" focus:ring-black px-3 py-3  placeholder-neutral-300 text-white relative bg-black bg-opacity-30 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring " />
             </div>
 
-            <div className="relative inline-block w-full text-gray-700">
-                <select name="soulVastness" onChange={props.handleSoulVastnessInputChange} className="  appearance-none focus:ring-black px-3 py-3  placeholder-neutral-300 text-white relative bg-black bg-opacity-80 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring" placeholder="Regular input">
+            <div className="relative inline-block w-full text-gray-700  hover:cursor-pointer">
+                <select name="soulVastness" onChange={props.handleSoulVastnessInputChange} className="hover:cursor-pointer  appearance-none focus:ring-black px-3 py-3  placeholder-neutral-300 text-white relative bg-black bg-opacity-80 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring" placeholder="Regular input">
                     <option>{soulVastness_enum.immense}</option>
                     <option>{soulVastness_enum.puny}</option>
                     <option>{soulVastness_enum.modest}</option>
@@ -92,8 +92,8 @@ const StatDrawer = (props: statDrawerProps) => {
                 </div>
             </div>
 
-            <div className="relative inline-block w-full text-gray-700">
-                <select name="copotype" onChange={props.handleCopTypeInputChange} className="   appearance-none focus:ring-black px-3 py-3  placeholder-neutral-300 text-white relative bg-black bg-opacity-80 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring" placeholder="Regular input">
+            <div className="relative inline-block w-full text-gray-700 hover:cursor-pointer">
+                <select name="copotype" onChange={props.handleCopTypeInputChange} className=" hover:cursor-pointer  appearance-none focus:ring-black px-3 py-3  placeholder-neutral-300 text-white relative bg-black bg-opacity-80 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring" placeholder="Regular input">
                     <option>{copType_enum.apocal}</option>
                     <option>{copType_enum.boring}</option>
                     <option>{copType_enum.fancy}</option>
