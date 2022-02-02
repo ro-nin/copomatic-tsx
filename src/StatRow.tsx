@@ -30,7 +30,7 @@ const StatRow = (props: statRowProps) => {
         </div>
 
 
-        <div className=' pl-8 flex flex-col justify-end  text-right max-w-[400px] '>
+        <div className=' pl-8 flex flex-col justify-end  text-right max-w-[500px] min-w-[400px] '>
             <p className='bg-black text-white text-7xl uppercase px-2 '>{stat}</p>
             <p className='text-xl'>{statDesc}</p>
         </div>
