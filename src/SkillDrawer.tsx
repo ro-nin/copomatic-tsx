@@ -139,8 +139,8 @@ const SkillDrawer = (props: SkillDrawerProps) => {
                         <EquipmentItem item={props.equipped.neckwear} nextClothingItem={props.nextClothingItem} ClothingLayer={2} />
                         <EquipmentItem item={props.equipped.jacket} nextClothingItem={props.nextClothingItem} ClothingLayer={3} />
                         <EquipmentItem item={props.equipped.shirt} nextClothingItem={props.nextClothingItem} ClothingLayer={4} />
-                        <EquipmentItem item={props.equipped.gloves} nextClothingItem={props.nextClothingItem} ClothingLayer={5} />
-                        <EquipmentItem item={props.equipped.pants} nextClothingItem={props.nextClothingItem} ClothingLayer={6} />
+                        <EquipmentItem item={props.equipped.gloves} nextClothingItem={props.nextClothingItem} ClothingLayer={6} />
+                        <EquipmentItem item={props.equipped.pants} nextClothingItem={props.nextClothingItem} ClothingLayer={5} />
                         <EquipmentItem item={props.equipped.shoes} nextClothingItem={props.nextClothingItem} ClothingLayer={7} />
                     </div>
                 </div>

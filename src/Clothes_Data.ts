@@ -897,7 +897,7 @@ export const Pants: Clothes[] = [
         ], img: Pants_bellbottom
     },
     {
-        name: "Pants_interisolar",
+        name: "Interisolary Trousers ",
         slot: "Pants",
         modifiers: [
 
