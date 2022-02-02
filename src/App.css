@@ -41,6 +41,18 @@ body{
 	-moz-animation: AnimationName 60s ease infinite;
 	-o-animation: AnimationName 60s ease infinite;
 	animation: AnimationName 60s ease infinite;
+
+}
+
+.bgLandingGradientText {
+	background: repeating-linear-gradient(-45deg, #000b31, #002a19, #dd5100, #ffd000);
+	background-size: 400% 400%;
+	-webkit-animation: AnimationName 60s ease infinite;
+	-moz-animation: AnimationName 60s ease infinite;
+	-o-animation: AnimationName 60s ease infinite;
+	animation: AnimationName 60s ease infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .bgDrawersGradient {
 	background: repeating-linear-gradient(-45deg, #532c00, #0b2200,#1a2549, #002a19);
