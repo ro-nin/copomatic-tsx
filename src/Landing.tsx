@@ -15,8 +15,9 @@ const Landing = (props: Props) => {
                 <p className=' font-bold bgLandingGradientText  uppercase hover:bg-opacity-80'> Start</p>
             </div>
         </a>
-        <p className=' mt-36'>All text content and artworks shown in this site are registered property of studio ZAUM, I do not own any rights.</p>
-
+        <div className='pt-36 text-sm'>
+            <p className='inline '>All text content and artworks shown in this site are registered property of studio </p> <a className='inline text-white bg-red-500' href="https://discoelysium.com/">ZAUM</a><p className='inline'>, I do not own any rights.</p>
+        </div>
     </div>;
 };
 
