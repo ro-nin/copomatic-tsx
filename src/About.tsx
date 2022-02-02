@@ -16,7 +16,7 @@ const About = (props: Props) => {
             <ul className='text-base list-disc mt-2 text-left ml-12'>
                 <li>   Choose your own NAME? NAME... what a concept.</li>
                 <li>	Choose your Attributes and Skills, style and even the size of your SOUL, if you have one of course.</li>
-                <li>	Express yourself with a range of fashionable clothes and see how does that affect your identity.</li>
+                <li>	Express yourself with a range of fashionable clothes and see how does that affects your identity.</li>
                 <li>	Save your new self as a digital image for everyone to see.</li>
             </ul>
             <p className='mb-6 text-base text-left'>Mobile responsive design you ask? What kind of LOW CONCEPT request is that?</p>

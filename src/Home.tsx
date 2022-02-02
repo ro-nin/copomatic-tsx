@@ -17,7 +17,7 @@ const Home = (props: Props) => {
 
     const ref = useRef<HTMLDivElement>(null)
 
-    const [charName, setCharName] = useState("Harry Du Bois")
+    const [charName, setCharName] = useState("Harrier Kitsuragi")
     const [copType, setCopType] = useState(copType_enum.apocal)
     const [soulVastness, setSoulVastness] = useState(soulVastness_enum.immense)
 
