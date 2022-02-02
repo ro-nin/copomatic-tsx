@@ -74,7 +74,7 @@ export enum soulVastness_enum {
 export interface skillModifier {
     skill: Skills_enum,
     value: number,
-    increment: boolean
+    increment: boolean //useless TODO remove, just use value...
 }
 
 export interface Equipment{
