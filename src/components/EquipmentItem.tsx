@@ -1,6 +1,6 @@
 import { IconContext } from 'react-icons';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
-import { Clothes } from './Clothes_Data';
+import { Clothes } from '../data/Clothes_Data';
 
 
 function generateModifierText(item: Clothes) {
@@ -22,9 +22,9 @@ const EquipmentItem = (props: { item: Clothes, nextClothingItem: Function, Cloth
 
 
 
-    const bonuses=generateModifierText(props.item);
+    const bonuses = generateModifierText(props.item);
     return <div className='relative bg-black bg-opacity-90 text-white overflow-hidden'>
-        
+
         <div className='group absolute w-full '>
             <IconContext.Provider value={{ style: { opacity: "10%" } }}>
                 <AiOutlineInfoCircle />
@@ -32,7 +32,7 @@ const EquipmentItem = (props: { item: Clothes, nextClothingItem: Function, Cloth
 
             <div className="hidden group-hover:inline group-hover:bg-opacity-90 absolute  bg-black p-2 z-40">
                 <p className=' text-xs'> {props.item.name || "placeholder description"}</p>
-                {bonuses && bonuses.map(str => { return <p key={props.item.name+str} className=' text-xs'>{str}</p> })}
+                {bonuses && bonuses.map(str => { return <p key={props.item.name + str} className=' text-xs'>{str}</p> })}
             </div>
         </div>
 
