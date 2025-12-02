@@ -2,8 +2,8 @@
 import './App.css';
 
 import { Routes, Route, Link } from "react-router-dom";
-import Home from './Home';
-import About from './About';
+import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
 
@@ -11,10 +11,10 @@ function App() {
     <div className="App bgDrawersGradient scroll-smooth">
       <div className="flex flex-col " >
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
         </Routes>
-        
+
       </div>
     </div>
 

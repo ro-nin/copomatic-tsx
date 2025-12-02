@@ -1,37 +1,37 @@
 
 
 import EquipmentItem from './EquipmentItem';
-import conceptualization from './images/intellect/conceptualization.jpg';
-import drama from './images/intellect/drama.jpg';
-import encyclopedia from './images/intellect/encyclopedia.jpg';
-import logic from './images/intellect/logic.jpg';
-import rhetoric from './images/intellect/rhetoric.jpg';
-import visualcalculus from './images/intellect/visualcalculus.jpg';
+import conceptualization from '../images/intellect/conceptualization.jpg';
+import drama from '../images/intellect/drama.jpg';
+import encyclopedia from '../images/intellect/encyclopedia.jpg';
+import logic from '../images/intellect/logic.jpg';
+import rhetoric from '../images/intellect/rhetoric.jpg';
+import visualcalculus from '../images/intellect/visualcalculus.jpg';
 
-import composure from './images/motorics/composure.jpg';
-import handeyecoordination from './images/motorics/hand-eyecoordination.jpg';
-import interfacing from './images/motorics/interfacing.jpg';
-import perception from './images/motorics/perception.jpg';
-import reactionspeed from './images/motorics/reactionspeed.jpg';
-import savoirfaire from './images/motorics/savoirfaire.jpg';
+import composure from '../images/motorics/composure.jpg';
+import handeyecoordination from '../images/motorics/hand-eyecoordination.jpg';
+import interfacing from '../images/motorics/interfacing.jpg';
+import perception from '../images/motorics/perception.jpg';
+import reactionspeed from '../images/motorics/reactionspeed.jpg';
+import savoirfaire from '../images/motorics/savoirfaire.jpg';
 
-import electrochemistry from './images/physique/electrochemistry.jpg';
-import endurance from './images/physique/endurance.jpg';
-import halflight from './images/physique/halflight.jpg';
-import painthreshold from './images/physique/painthreshold.jpg';
-import physicalinstrument from './images/physique/physicalinstrument.jpg';
-import shivers from './images/physique/shivers.jpg';
+import electrochemistry from '../images/physique/electrochemistry.jpg';
+import endurance from '../images/physique/endurance.jpg';
+import halflight from '../images/physique/halflight.jpg';
+import painthreshold from '../images/physique/painthreshold.jpg';
+import physicalinstrument from '../images/physique/physicalinstrument.jpg';
+import shivers from '../images/physique/shivers.jpg';
 
-import authority from './images/psyche/authority.jpg';
-import empathy from './images/psyche/empathy.jpg';
-import espritdecorps from './images/psyche/espritdecorps.jpg';
-import inlandempire from './images/psyche/inlandempire.jpg';
-import suggestion from './images/psyche/suggestion.jpg';
-import volition from './images/psyche/volition.jpg';
+import authority from '../images/psyche/authority.jpg';
+import empathy from '../images/psyche/empathy.jpg';
+import espritdecorps from '../images/psyche/espritdecorps.jpg';
+import inlandempire from '../images/psyche/inlandempire.jpg';
+import suggestion from '../images/psyche/suggestion.jpg';
+import volition from '../images/psyche/volition.jpg';
 import Skill from './Skill';
 import Stat from './Stat';
 
-import { Equipment, Skills_Desc_enum, Skills_enum } from "./Utils"
+import { Equipment, Skills_Desc_enum, Skills_enum } from "../utils/Utils"
 
 //TODO skill should have its own model object with desc,full name...
 
@@ -67,9 +67,9 @@ interface SkillDrawerProps {
 
 const SkillDrawer = (props: SkillDrawerProps) => {
 
-    
+
     //todo Switch to grid since unresponsive?
-    
+
     return <div id="skills" className="  ">
 
         <div className="flex justify-center">
@@ -84,7 +84,7 @@ const SkillDrawer = (props: SkillDrawerProps) => {
                     <p className='uppercase text-right bg-opacity-[90%] bg-white text-black px-5 '>{props.soulVastness}</p>
                     {/* <div className=' bg-opacity-[95%] bg-white text-black  w-full '></div> */}
                 </div>
-                <div className="flex border-2 border-white"> 
+                <div className="flex border-2 border-white">
                     <div className="flex flex-col">
                         <div className="flex   ">
                             <Stat value={props.intellect} label={"intellect"} />

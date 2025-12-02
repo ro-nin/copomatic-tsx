@@ -1,84 +1,84 @@
-import { skillModifier, Skills_enum } from "./Utils";
+import { skillModifier, Skills_enum } from "../utils/Utils";
 
-import amphi from './images/hats/Hat_amphibian_sports_visor.webp';
-import camionneur from './images/hats/Hat_camionneur.webp';
-import t500Hat from './images/hats/Hat_t500.webp';
-import Hat_mullen from './images/hats/Hat_mullen.webp';
-import Hat_faln from './images/hats/Hat_faln.webp';
-import Hat_bum from './images/hats/Hat_bum.webp';
-import Hat_rcm from './images/hats/Hat_rcm.webp';
-import Hat_revolutionary from './images/hats/Hat_revolutionary.webp';
-import Hat_samaran from './images/hats/Hat_samaran.webp';
+import amphi from '../images/hats/Hat_amphibian_sports_visor.webp';
+import camionneur from '../images/hats/Hat_camionneur.webp';
+import t500Hat from '../images/hats/Hat_t500.webp';
+import Hat_mullen from '../images/hats/Hat_mullen.webp';
+import Hat_faln from '../images/hats/Hat_faln.webp';
+import Hat_bum from '../images/hats/Hat_bum.webp';
+import Hat_rcm from '../images/hats/Hat_rcm.webp';
+import Hat_revolutionary from '../images/hats/Hat_revolutionary.webp';
+import Hat_samaran from '../images/hats/Hat_samaran.webp';
 
-import glbiker from './images/glasses/Glasses_biker.webp';
-import Glasses_megabinos from './images/glasses/Glasses_megabinos.webp';
-import Glasses_rect from './images/glasses/Glasses_rect.webp';
-import Glasses_bugeyes from './images/glasses/Glasses_bugeyes.webp';
-import Glasses_self_destruction from './images/glasses/Glasses_self_destruction.webp';
-import Glasses_sub_insulindics from './images/glasses/Glasses_sub_insulindics.webp';
-import Glasses_flipup from './images/glasses/Glasses_flipup.webp';
-
-
-import jack_suede from './images/jackets/Jacket_suede.webp';
-import Jacket_windbreaker from './images/jackets/Jacket_windbreaker_surf.webp';
-import Jacket_faln from './images/jackets/Jacket_faln.webp';
-import Jacket_fritte_raincoat from './images/jackets/Jacket_fritte_raincoat.webp';
-import Jacket_interisolar from './images/jackets/Jacket_interisolar.webp';
-import Jacket_korovjev from './images/jackets/Jacket_korovjev.webp';
-import Jacket_fucktheworld from './images/jackets/Jacket_fucktheworld.webp';
-import Jacket_pissflaubert from './images/jackets/Jacket_pissflaubert.webp';
-import Jacket_kimono_robe from './images/jackets/Jacket_kimono_robe.webp';
-import Jacket_mullen_big from './images/jackets/Jacket_mullen_big.webp';
-import Jacket_nansencoat_big from './images/jackets/Jacket_nansencoat_big.webp';
-import Jacket_rcm from './images/jackets/Jacket_rcm.webp';
-import Jacket_patrol_cloak_big from './images/jackets/Jacket_patrol_cloak_big.webp';
-import Jacket_reflective_vest from './images/jackets/Jacket_reflective_vest.webp';
-import Jacket_carabineer from './images/jackets/Jacket_carabineer.webp';
-import Jacket_interisolar_white from './images/jackets/Jacket_interisolar_white.webp';
-import Jacket_navalcoat_big from './images/jackets/Jacket_navalcoat_big.webp';
+import glbiker from '../images/glasses/Glasses_biker.webp';
+import Glasses_megabinos from '../images/glasses/Glasses_megabinos.webp';
+import Glasses_rect from '../images/glasses/Glasses_rect.webp';
+import Glasses_bugeyes from '../images/glasses/Glasses_bugeyes.webp';
+import Glasses_self_destruction from '../images/glasses/Glasses_self_destruction.webp';
+import Glasses_sub_insulindics from '../images/glasses/Glasses_sub_insulindics.webp';
+import Glasses_flipup from '../images/glasses/Glasses_flipup.webp';
 
 
-import Neck_winter_scarf from './images/neckwear/Neck_winter_scarf.webp'
-import Neck_bowtie from './images/neckwear/Neck_bowtie.webp'
-import Neck_teratorn_tie from './images/neckwear/Neck_teratorn_tie.webp'
-import Neck_tie from './images/neckwear/Neck_tie.webp'
-import Neck_setting_sun_medal from './images/neckwear/Neck_setting_sun_medal.webp'
-import Neck_winter_scarf_red from './images/neckwear/Neck_winter_scarf_red.webp'
-import Neck_scented_scarf from './images/neckwear/Neck_scented_scarf.webp'
+import jack_suede from '../images/jackets/Jacket_suede.webp';
+import Jacket_windbreaker from '../images/jackets/Jacket_windbreaker_surf.webp';
+import Jacket_faln from '../images/jackets/Jacket_faln.webp';
+import Jacket_fritte_raincoat from '../images/jackets/Jacket_fritte_raincoat.webp';
+import Jacket_interisolar from '../images/jackets/Jacket_interisolar.webp';
+import Jacket_korovjev from '../images/jackets/Jacket_korovjev.webp';
+import Jacket_fucktheworld from '../images/jackets/Jacket_fucktheworld.webp';
+import Jacket_pissflaubert from '../images/jackets/Jacket_pissflaubert.webp';
+import Jacket_kimono_robe from '../images/jackets/Jacket_kimono_robe.webp';
+import Jacket_mullen_big from '../images/jackets/Jacket_mullen_big.webp';
+import Jacket_nansencoat_big from '../images/jackets/Jacket_nansencoat_big.webp';
+import Jacket_rcm from '../images/jackets/Jacket_rcm.webp';
+import Jacket_patrol_cloak_big from '../images/jackets/Jacket_patrol_cloak_big.webp';
+import Jacket_reflective_vest from '../images/jackets/Jacket_reflective_vest.webp';
+import Jacket_carabineer from '../images/jackets/Jacket_carabineer.webp';
+import Jacket_interisolar_white from '../images/jackets/Jacket_interisolar_white.webp';
+import Jacket_navalcoat_big from '../images/jackets/Jacket_navalcoat_big.webp';
 
-import Shirt_t500 from './images/shirts/Shirt_t500.webp'
-import Shirt_faln from './images/shirts/Shirt_faln.webp'
-import Shirt_mesh from './images/shirts/Shirt_mesh.webp'
-import Shirt_interisolar from './images/shirts/Shirt_interisolar.webp'
-import Shirt_hjelmdall from './images/shirts/Shirt_hjelmdall.webp'
-import Shirt_polo from './images/shirts/Shirt_polo.webp'
-import Shirt_dress_disco from './images/shirts/Shirt_dress_disco.webp'
-import Shirt_tank_top from './images/shirts/Shirt_tank_top.webp'
 
-import Gloves_t500 from './images/gloves/Gloves_t500.webp'
-import Gloves_bum from './images/gloves/Gloves_bum.webp'
-import Gloves_faln from './images/gloves/Gloves_faln.webp'
-import Gloves_garden from './images/gloves/Gloves_faln.webp'
+import Neck_winter_scarf from '../images/neckwear/Neck_winter_scarf.webp'
+import Neck_bowtie from '../images/neckwear/Neck_bowtie.webp'
+import Neck_teratorn_tie from '../images/neckwear/Neck_teratorn_tie.webp'
+import Neck_tie from '../images/neckwear/Neck_tie.webp'
+import Neck_setting_sun_medal from '../images/neckwear/Neck_setting_sun_medal.webp'
+import Neck_winter_scarf_red from '../images/neckwear/Neck_winter_scarf_red.webp'
+import Neck_scented_scarf from '../images/neckwear/Neck_scented_scarf.webp'
 
-import Pants_faln from './images/pants/Pants_faln.webp'
-import Pants_bellbottom from './images/pants/Pants_bellbottom.webp'
-import Pants_interisolar from './images/pants/Pants_interisolar.webp'
-import Pants_itchy_angry from './images/pants/Pants_itchy_angry.webp'
-import Pants_jeans_red from './images/pants/Pants_jeans_red.webp'
-import Pants_jeans from './images/pants/Pants_jeans.webp'
-import Pants_jeans_black from './images/pants/Pants_jeans_black.webp'
-import Pants_rcm from './images/pants/Pants_rcm.webp'
-import Pants_carabineer from './images/pants/Pants_carabineer.webp'
-import Pants_interisolar_white from './images/pants/Pants_interisolar_white.webp'
+import Shirt_t500 from '../images/shirts/Shirt_t500.webp'
+import Shirt_faln from '../images/shirts/Shirt_faln.webp'
+import Shirt_mesh from '../images/shirts/Shirt_mesh.webp'
+import Shirt_interisolar from '../images/shirts/Shirt_interisolar.webp'
+import Shirt_hjelmdall from '../images/shirts/Shirt_hjelmdall.webp'
+import Shirt_polo from '../images/shirts/Shirt_polo.webp'
+import Shirt_dress_disco from '../images/shirts/Shirt_dress_disco.webp'
+import Shirt_tank_top from '../images/shirts/Shirt_tank_top.webp'
 
-import Shoes_fancy_loafer from './images/shoes/Shoes_fancy_loafer.webp'
-import Shoes_cavalry from './images/shoes/Shoes_cavalry.webp'
-import Shoes_donks from './images/shoes/Shoes_donks.webp'
-import Shoes_faln from './images/shoes/Shoes_faln.webp'
-import Shoes_fancy_loafer_brown from './images/shoes/Shoes_fancy_loafer_brown.webp'
-import Shoes_snakeskin from './images/shoes/Shoes_snakeskin.webp'
-import Shoes_snakeskin_red from './images/shoes/Shoes_snakeskin_red.webp'
-import Shoes_t500 from './images/shoes/Shoes_t500.webp'
+import Gloves_t500 from '../images/gloves/Gloves_t500.webp'
+import Gloves_bum from '../images/gloves/Gloves_bum.webp'
+import Gloves_faln from '../images/gloves/Gloves_faln.webp'
+import Gloves_garden from '../images/gloves/Gloves_faln.webp'
+
+import Pants_faln from '../images/pants/Pants_faln.webp'
+import Pants_bellbottom from '../images/pants/Pants_bellbottom.webp'
+import Pants_interisolar from '../images/pants/Pants_interisolar.webp'
+import Pants_itchy_angry from '../images/pants/Pants_itchy_angry.webp'
+import Pants_jeans_red from '../images/pants/Pants_jeans_red.webp'
+import Pants_jeans from '../images/pants/Pants_jeans.webp'
+import Pants_jeans_black from '../images/pants/Pants_jeans_black.webp'
+import Pants_rcm from '../images/pants/Pants_rcm.webp'
+import Pants_carabineer from '../images/pants/Pants_carabineer.webp'
+import Pants_interisolar_white from '../images/pants/Pants_interisolar_white.webp'
+
+import Shoes_fancy_loafer from '../images/shoes/Shoes_fancy_loafer.webp'
+import Shoes_cavalry from '../images/shoes/Shoes_cavalry.webp'
+import Shoes_donks from '../images/shoes/Shoes_donks.webp'
+import Shoes_faln from '../images/shoes/Shoes_faln.webp'
+import Shoes_fancy_loafer_brown from '../images/shoes/Shoes_fancy_loafer_brown.webp'
+import Shoes_snakeskin from '../images/shoes/Shoes_snakeskin.webp'
+import Shoes_snakeskin_red from '../images/shoes/Shoes_snakeskin_red.webp'
+import Shoes_t500 from '../images/shoes/Shoes_t500.webp'
 
 
 //TODO should be json or whatever
@@ -1073,7 +1073,7 @@ export const Shoes: Clothes[] = [
                 value: 1,
                 increment: true
             },
-            
+
         ]
         , img: Shoes_cavalry
     },
@@ -1091,7 +1091,7 @@ export const Shoes: Clothes[] = [
                 value: 1,
                 increment: false
             },
-            
+
         ]
         , img: Shoes_snakeskin
     },

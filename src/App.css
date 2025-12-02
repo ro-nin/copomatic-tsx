@@ -4,9 +4,10 @@
 	}
 }
 
-body{
+body {
 	scroll-behavior: smooth;
 }
+
 .textOutline {
 	-webkit-text-stroke: 1px black;
 	color: white;
@@ -35,35 +36,26 @@ body{
 }
 
 .bgLandingGradient {
-	background: repeating-linear-gradient(-45deg, #000b31, #002a19, #dd5100, #ffd000);
+	background: linear-gradient(-45deg, #0f172a, #1e293b, #334155, #0f172a);
 	background-size: 400% 400%;
-	-webkit-animation: AnimationName 60s ease infinite;
-	-moz-animation: AnimationName 60s ease infinite;
-	-o-animation: AnimationName 60s ease infinite;
-	animation: AnimationName 60s ease infinite;
-
+	animation: gradientBG 15s ease infinite;
 }
 
 .bgLandingGradientText {
-	background: repeating-linear-gradient(-45deg, #000b31, #002a19, #dd5100, #ffd000);
+	background: linear-gradient(-45deg, #000b31, #002a19, #dd5100, #ffd000);
 	background-size: 400% 400%;
-	-webkit-animation: AnimationName 60s ease infinite;
-	-moz-animation: AnimationName 60s ease infinite;
-	-o-animation: AnimationName 60s ease infinite;
-	animation: AnimationName 60s ease infinite;
+	animation: gradientBG 60s ease infinite;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
 .bgDrawersGradient {
-	background: repeating-linear-gradient(-45deg, #532c00, #0b2200,#1a2549, #002a19);
+	background: linear-gradient(-45deg, #1c1917, #292524, #44403c, #1c1917);
 	background-size: 400% 400%;
-	-webkit-animation: AnimationName 60s ease infinite;
-	-moz-animation: AnimationName 60s ease infinite;
-	-o-animation: AnimationName 60s ease infinite;
-	animation: AnimationName 60s ease infinite;
+	animation: gradientBG 15s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
+@keyframes gradientBG {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -77,44 +69,10 @@ body{
 	}
 }
 
-@-moz-keyframes AnimationName {
-	0% {
-		background-position: 0% 50%;
-	}
-
-	50% {
-		background-position: 100% 50%;
-	}
-
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-@-o-keyframes AnimationName {
-	0% {
-		background-position: 0% 50%;
-	}
-
-	50% {
-		background-position: 100% 50%;
-	}
-
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-@keyframes AnimationName {
-	0% {
-		background-position: 0% 50%;
-	}
-
-	50% {
-		background-position: 100% 50%;
-	}
-
-	100% {
-		background-position: 0% 50%;
-	}
+.glass-panel {
+	background: rgba(255, 255, 255, 0.05);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }

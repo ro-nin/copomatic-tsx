@@ -1,7 +1,7 @@
 import React, { ChangeEventHandler, MouseEventHandler } from 'react';
 import StatRow from './StatRow';
 import { CgShapeRhombus } from 'react-icons/cg'
-import { copType_enum, soulVastness_enum } from './Utils';
+import { copType_enum, soulVastness_enum } from '../utils/Utils';
 
 
 interface statDrawerProps {
